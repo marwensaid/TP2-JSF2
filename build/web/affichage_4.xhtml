@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./resources/templates/template_affichage.xhtml"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <f:metadata>  
+        <f:viewParam name="nombre" value="#{bean.nombre}"/>  
+    </f:metadata>
+    
+    <ui:param name="numEx" value="4"/>
+    <ui:param name="query" value="?face-redirect=true&amp;includeViewParams=true"/>
+
+</ui:composition>
